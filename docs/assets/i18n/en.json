@@ -1,0 +1,15 @@
+{
+    "HOME": {
+        "LANGUAGE": "Select your language ",
+        "TITLE": "The Localization project",
+        "SUBTITLE": "A try with the library {{name}}!",
+        "INPUT": "Input new library name: "
+    },
+    "button": {
+        "lang": {
+            "ua": "Ukrainian",
+            "en": "English",
+            "de": "German"
+        }
+    }
+}

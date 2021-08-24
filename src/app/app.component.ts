@@ -8,6 +8,7 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent {
   title = '@ngx-translate/core';
+  menuVisible = false;
   dropdownVisible = false;
   languages: string[] = [
     'de',

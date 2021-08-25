@@ -18,3 +18,14 @@
 .dropdownHide {
     display: none;
 }
+
+.menu-item {
+    margin-left: 5px;
+}
+
+@media (min-width: 575px) and (max-width: 1000px) {
+    .hidden {
+        display: none;
+        position: relative;
+    }
+}

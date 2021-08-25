@@ -8,6 +8,10 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent {
   title = '@ngx-translate/core';
+  changeColorSandwich = false;
+  changeColorHome = false;
+  changeColorUsers = false;
+  changeColorLanguages = false;
   menuVisible = false;
   dropdownVisible = false;
   languages: string[] = [

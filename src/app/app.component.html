@@ -1,4 +1,5 @@
 <div class="wrapper">
+  <!-- Header -->
   <nav class="navbar navbar-expand-sm navbar-light bg-dark">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" aria-controls="navbarExample01" aria-expanded="false"
@@ -37,6 +38,7 @@
     </div>
   </nav>
 
+  <!-- Main -->
   <div class="main">
     <h1>{{ 'HOME.TITLE' | translate }}</h1>
 
@@ -44,12 +46,29 @@
     <p>{{ 'HOME.SUBTITLE' | translate: {name: title} }}</p>
   </div>
 
-  <footer class="bg-light text-center text-lg-start">
+  <!-- Footer -->
+  <footer class="bg-light text-center text-lg-start footer">
+    <div class="items">
+      <!-- Telegram -->
+      <div class="text-center p-3">
+        <a class="icon-telegram1" href="https://telegram.org/"></a><span class="footer_text"> Telegram: </span>
+        <a class="text-dark footer_link" href="https://telegram.org/"> https://telegram.org/</a>
+      </div>
+      <!-- Linkedin -->
+      <div class="text-center p-3">
+        <a class="icon-linkedin" href="https://linkedin.com/"></a><span class="footer_text"> Linkedin: </span>
+        <a class="text-dark footer_link" href="https://linkedin.com/"> https://linkedin.com/</a>
+      </div>
+      <!-- Facebook -->
+      <div class="text-center p-3">
+        <a class="icon-facebook" href="https://facebook.com/"></a><span class="footer_text"> Facebook: </span>
+        <a class="text-dark footer_link" href="https://facebook.com/"> https://facebook.com/</a>
+      </div>
+    </div>
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
       © 2021 Copyright:
       <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
     </div>
-    <!-- Copyright -->
   </footer>
 </div>

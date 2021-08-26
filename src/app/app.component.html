@@ -2,6 +2,11 @@
   <!-- Header -->
   <nav class="navbar navbar-expand-sm navbar-light bg-dark">
     <div class="container-fluid">
+      <!-- Logo -->
+      <a class="navbar-brand" href="/">
+        <img src="../assets/pictures/angular logo.png" height="50" alt="logo" loading="lazy" />
+        PET-Project
+      </a>
       <!-- Sandwich menu -->
       <button class="navbar-toggler" type="button" aria-controls="navbarExample01" aria-expanded="false"
         aria-label="Toggle navigation" (click)="menuVisible = !menuVisible">
@@ -10,7 +15,7 @@
       </button>
       <!-- Navbar -->
       <div class="navbar-collapse" [ngClass]="{'collapse': !menuVisible}" id="navbarExample01">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item active ">
             <a class="nav-link text-light" [ngClass]="{'text-muted': changeColorHome}" aria-current="page" href="/"
               (mouseenter)="changeColorHome=true" (mouseleave)="changeColorHome=false"><i
